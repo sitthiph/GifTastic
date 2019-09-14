@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="jumbotron container">
+    <h1 class="display-4 font-weight-bold">Welcome to GifTastic</h1>
+    <p class="lead">Look up any GIF you wanted here!.</p>
+</div>
+<div class="container">
+    <form class="row">
+        <div class="col-md-4">
+            <input type="search" class="form-control" id="input" placeholder="Search...">
+        </div>
+        <div class="col-md-4">
+            <input type="button" class="btn btn-primary" value="Look It Up!" id="submit">
+        </div>
+    </form>
+    <div id="gif-container" style="display: none">
+        <div class="row">
+            <img src="#" class="col-md-6"alt="GIF1" id="gif0" style="padding-top: 1em; padding-bottom: 1em;">
+            <img src="#" class="col-md-6"alt="GIF2" id="gif1" style="padding-top: 1em; padding-bottom: 1em;">
+        </div>
+        <div class="row">
+            <img src="#" class="col-md-6"alt="GIF3" id="gif2" style="padding-top: 1em; padding-bottom: 1em;">
+            <img src="#" class="col-md-6"alt="GIF4" id="gif3" style="padding-top: 1em; padding-bottom: 1em;">
+        </div>
+        <div class="row">
+            <img src="#" class="col-md-6"alt="GIF5" id="gif4" style="padding-top: 1em; padding-bottom: 1em;">
+            <img src="#" class="col-md-6"alt="GIF6" id="gif5" style="padding-top: 1em; padding-bottom: 1em;">
+        </div>
+        <div class="row">
+            <img src="#" class="col-md-6"alt="GIF7" id="gif6" style="padding-top: 1em; padding-bottom: 1em;">
+            <img src="#" class="col-md-6"alt="GIF8" id="gif7" style="padding-top: 1em; padding-bottom: 1em;">
+        </div>
+        <div class="row">
+            <img src="#" class="col-md-6"alt="GIF9" id="gif8" style="padding-top: 1em; padding-bottom: 1em;">
+            <img src="#" class="col-md-6"alt="GIF10" id="gif9" style="padding-top: 1em; padding-bottom: 1em;">
+        </div>
+    </div>
+</div>
+<footer>
+    <small>API used GIPHY</small>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
